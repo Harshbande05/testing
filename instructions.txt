@@ -1,15 +1,27 @@
-1) git init
+1) git init  
+   # Initializes Git in your local folder (makes it a Git repo)
 
-2) git status
+2) git status  
+   # Shows current status: changes, staged files, untracked files
 
-3) git add .
+3) git add .  
+   # Stages ALL files for commit
 
-4) git commit -m "Your message"
+4) git commit -m "Your message"  
+   # Creates a commit with a message
 
-5) git remote add origin https://github.com/Harshbande05/testing.git
+5) git remote add origin https://github.com/Harshbande05/testing.git  
+   # Connects your local repo to the GitHub repository (named 'origin')
 
-6) git push -u origin master
+6) git push -u origin master  
+   # Pushes 'master' branch to GitHub and sets upstream (future pushes need only 'git push')
 
-7) git remote -v
+7) git remote -v  
+   # Shows all connected remotes (fetch & push URLs)
 
-8) git pull -u origin master
+8) git pull origin master  
+   # Pulls latest changes from GitHub's master branch into your local master
+   # (no -u needed for pull)
+
+9) git branch -r  
+   # Shows all *remote* branches available on GitHub
