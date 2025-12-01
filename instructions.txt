@@ -1,0 +1,15 @@
+1) git init
+
+2) git status
+
+3) git add .
+
+4) git commit -m "Your message"
+
+5) git remote add origin https://github.com/Harshbande05/testing.git
+
+6) git push -u origin master
+
+7) git remote -v
+
+8) git pull -u origin master
